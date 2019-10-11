@@ -1,31 +1,239 @@
 <!DOCTYPE html>
 <html>
 
-	<style type="text/css">
-		#leels {
-			width: 500px;
-			height:500px;
-			background-color: lightblue;
-			border-radius: 70%;
-		}
-		#leels:hover{
-			background-color: pink;
-		}
-
-		.colors{
-			font-size:200px;
-		}
-	</style>
-
-
-	<ol class="colors" style="font-family: Arial">
-		<li>blue</li>
-		<li>pink</li>
-	</ol>
-
-	<div id="leels">
+<head>
 	
-	</div>
+	<style>
+		.container{
+  height: 500px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 10px;
+  margin: 0 auto;
+  width: 100px;
+}
+.circle1 { 
+      width: 100px;
+      height: 100px;
+      background: #E1B8B6;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      position: relative;
+
+    }
+.circle2 {
+     width: 100px;
+      height: 100px;
+      background: peachpuff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      position: relative;
+
+    }
+.circle3 {
+      width: 100px;
+      height: 100px;
+      background: #D1F2EB;   
+      border-radius:50%;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      position: relative;
+
+}
+.circle4 {
+      width: 100px;
+      height: 100px;
+      background: #b9d3ee;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      position: relative;
+    }
+.circle5 {
+      width: 100px;
+      height: 100px;
+      background: #d0ffa0;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      position: relative;
+
+}
+.circle6 {
+      width: 100px;
+      height: 100px;
+      background: thistle;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      position: relative;
+}
+.circle7 {
+      width: 100px;
+      height: 100px;
+      background: #ECD9F4;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      position: relative;
+}
+.circle8 {
+      width: 100px;
+      height: 100px;
+      background: #D6EAD4;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      position: relative;
+}
+.circle9 {
+      width: 100px;
+      height: 100px;
+      background: #A1300E;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      position: relative;
+}
+.circle10{
+      width: 100px;
+      height: 100px;
+      background: #D1F2EB;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      position: relative;
+}
+.circle11 {
+      width: 100px;
+      height: 100px;
+      background: #B97999;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      position: relative;
+}
+.para {
+      font-family:Arial;
+      font-style: italic;
+  font-weight: bold;
+  color: gray
+}
+.por {
+  color: white
+}
+.tooltiptext{
+  font-family:Arial;
+  font-style: italic;
+  font-weight: bold;
+  color: gray;
+  visibility: hidden;
+  width: 120px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0; 
+  position: absolute;
+  z-index: 1;
+}
+.circle1:hover .tooltiptext {
+  visibility: visible;
+}
+
+.circle2:hover .tooltiptext {
+  visibility: visible;
+}
+.circle3:hover .tooltiptext {
+  visibility: visible;
+}
+.circle4:hover .tooltiptext {
+  visibility: visible;
+}
+.circle5:hover .tooltiptext {
+  visibility: visible;
+}
+.circle6:hover .tooltiptext {
+  visibility: visible;
+}
+.circle7:hover .tooltiptext {
+  visibility: visible;
+}
+.circle8:hover .tooltiptext {
+  visibility: visible;
+}
+.circle9:hover .tooltiptext {
+  visibility: visible;
+}
+.circle10:hover .tooltiptext {
+  visibility: visible;
+}
+.circle11:hover .tooltiptext {
+  visibility: visible;
+}
+.blank { 
+  width: 100px; 
+  height: 30px
+}
+	</style>
+</head>
 
 
+<body>
+<div class=container>  
+  <h2 class=para> leela's projects </h2>
+  <div class=tooltip>
+  </div>
+ <a href="blue-pink.html"> <div class=circle1> <span class=tooltiptext> project  <br> name  <br>
+</span><span></span></div>
+</a>
+
+
+
+    <div class=blank></div>
+  <div class=circle2><span class=tooltiptext> project  <br> name  </span>
+ </div>  
+<div class=blank></div>
+<div class=circle3><span class=tooltiptext> project  <br> name </span></div>
+<div class=blank></div>
+<div class=circle4><span class=tooltiptext> project  <br> name  </span></div>
+<div class=blank></div>
+<div class=circle5><span class=tooltiptext> project  <br> name  </span></div>
+<div class=blank></div>
+<div class=circle6><span class=tooltiptext> project  <br> name  </span></div>
+<div class=blank></div>
+<div class=circle7><span class=tooltiptext> project  <br> name  </span></div>
+<div class=blank></div>
+<div class=circle8><span class=tooltiptext> project  <br> name  </span></div> 
+<div class=blank></div>
+<div class=circle9><span class=tooltiptext> project  <br> name  </span></div>
+<div class=blank></div>
+<div class=circle10><span class=tooltiptext> project  <br> name  </span></div>
+<div class=blank></div>
+<div class=circle11><span class=tooltiptext> project  <br> name  </span></div>
+<p class= por>-</p>
+</div>
+<body style="text-align:center;">
+</div>
+  </div>
+</body>
 </html>
+
