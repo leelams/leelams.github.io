@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+	<div></div>
+
+<!-- 
+ --><script>
+
+// function sayHi(x) {
+// 	console.log("Hello " + x +"!")
+
+// }
+
+
+	function makeTree(){
+		var tree = document.createElement("div");
+
+
+		tree.style.width = "100px";
+		tree.style.backgroundImage="url(https://www.trzcacak.rs/myfile/detail/41-413869_cherry-blossom-flower-png-cherry-blossom-tree-png.png)";
+		tree.style.height="90px";
+		tree.style.backgroundSize="contain";
+		tree.style.position="relative";
+		tree.style.display = "inline-block";
+
+		document.body.appendChild(tree);
+	}
+
+
+	setInterval(makeTree, 500);
+</script>
+</body>
+</html>
