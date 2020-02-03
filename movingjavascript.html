@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+		.fish{
+			background-image: url(https://images.assetsdelivery.com/compings_v2/tvectoricons/tvectoricons1808/tvectoricons180806514.jpg);
+			margin: 2px;
+			background-repeat: no-repeat;
+			background-size: contain;
+			display:inline-block;
+		}
+
+	</style>
+</head>
+<body>
+<script type="text/javascript">
+	function makeFish(fishy)
+
+	{var fish = document.createElement("div");
+	document.body.appendChild(fish);
+	fish.id"ocean"+fishy;
+	fish.style.left =
+	Math.round(Math.random()*100)+"px";
+	fish.style.top =
+	Math.round(Math.random()*100)+"px";
+	fish.style.width =
+	Math.round(Math.random()*100)+"px";
+	fish.style.height =
+	Math.round(Math.random()*100)+"px";
+	fish.classList.add("fish");
+
+};
+	for (var x=0; x<1000; x=x+1){
+		makeFish(x)};
+</script>
+</body>
+</html>
